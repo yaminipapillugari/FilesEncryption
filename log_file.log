@@ -1,0 +1,1208 @@
+INFO:root:nabudatabricksstorage
+INFO:root:99L6qtppWeNJRO3QzL0bP9QmzLbKLfEVJ3JHn/Pg+SNpiNns4Vk5ZrgUgkb8UwY8qUE8WuXimPSv+ASt9jGQUQ==
+INFO:root:connection established successfully
+INFO:root:['Book 3.xlsx', 'data.tsv', 'gallaxy_jpg.jpg', 'gallaxy_png.png', 'gif_file.gif', 'part-00000-5d5bb733-5baa-42a2-b216-71a9d6a59750-c000.avro', 'part-00000-63f46785-cbf9-4044-ba18-08f1cdbdc9c7-c000.snappy.parquet', 'sample.json', 'sample.msg', 'sample.pdf', 'sample.xml', 'sample_tif.tif', 'Sample_zip_file.zip', 'testing.csv']
+INFO:root:Book 3.xlsx
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2FBook%203.xlsx?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '149dac87-135e-11ed-bd4c-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:13 GMT'
+    'ETag': '"0x8DA7581FA7A4027"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcb32-801f-002f-736a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '149dac87-135e-11ed-bd4c-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:13 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2FBook%203.xlsx?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '153d390f-135e-11ed-83c4-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:14 GMT'
+    'ETag': '"0x8DA7581FA9C8094"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcba4-801f-002f-656a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '153d390f-135e-11ed-83c4-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:14 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2FBook%203.xlsx?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '12024'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '155f5312-135e-11ed-8775-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcc12-801f-002f-536a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '155f5312-135e-11ed-8775-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:14 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2FBook%203.xlsx?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA7581FA9C8094"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '15804398-135e-11ed-8a3a-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:14 GMT'
+    'ETag': '"0x8DA7581FAE357B8"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcc3c-801f-002f-7d6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '15804398-135e-11ed-8a3a-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:14 GMT'
+    'Content-Length': '0'
+INFO:root:data.tsv
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fdata.tsv?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '15a6592c-135e-11ed-971c-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:14 GMT'
+    'ETag': '"0x8DA7581FB05E49A"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcc5e-801f-002f-1f6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '15a6592c-135e-11ed-971c-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:14 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fdata.tsv?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '15c895a4-135e-11ed-a165-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:15 GMT'
+    'ETag': '"0x8DA7581FB27E501"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcc73-801f-002f-346a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '15c895a4-135e-11ed-a165-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:14 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fdata.tsv?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '204'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '15ea9dec-135e-11ed-9178-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcc83-801f-002f-446a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '15ea9dec-135e-11ed-9178-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:15 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fdata.tsv?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA7581FB27E501"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '160c63b6-135e-11ed-9f9e-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:15 GMT'
+    'ETag': '"0x8DA7581FB6D97DC"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcca8-801f-002f-696a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '160c63b6-135e-11ed-9f9e-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:15 GMT'
+    'Content-Length': '0'
+INFO:root:gallaxy_jpg.jpg
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fgallaxy_jpg.jpg?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '16301093-135e-11ed-9b43-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:15 GMT'
+    'ETag': '"0x8DA7581FB8FBD09"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefccdc-801f-002f-1d6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '16301093-135e-11ed-9b43-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:15 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fgallaxy_jpg.jpg?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '16528d6f-135e-11ed-a78a-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:16 GMT'
+    'ETag': '"0x8DA7581FBB24936"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcd2b-801f-002f-6c6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '16528d6f-135e-11ed-a78a-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:15 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fgallaxy_jpg.jpg?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '6692'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1674d9ba-135e-11ed-a949-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcd6b-801f-002f-2c6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1674d9ba-135e-11ed-a949-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:16 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fgallaxy_jpg.jpg?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA7581FBB24936"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1695b01f-135e-11ed-a467-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:16 GMT'
+    'ETag': '"0x8DA7581FBF73C96"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcdac-801f-002f-6d6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1695b01f-135e-11ed-a467-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:16 GMT'
+    'Content-Length': '0'
+INFO:root:gallaxy_png.png
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fgallaxy_png.png?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '16bad71b-135e-11ed-bb52-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:16 GMT'
+    'ETag': '"0x8DA7581FC1B2909"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcdf8-801f-002f-396a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '16bad71b-135e-11ed-bb52-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:16 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fgallaxy_png.png?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '16ddaa1e-135e-11ed-88d1-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:16 GMT'
+    'ETag': '"0x8DA7581FC3D5B31"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefce37-801f-002f-786a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '16ddaa1e-135e-11ed-88d1-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:16 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fgallaxy_png.png?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '88076'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '16ffd854-135e-11ed-98cf-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefce62-801f-002f-236a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '16ffd854-135e-11ed-98cf-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:17 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fgallaxy_png.png?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA7581FC3D5B31"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1742bfaf-135e-11ed-9243-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:17 GMT'
+    'ETag': '"0x8DA7581FCA4D491"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefceaa-801f-002f-6b6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1742bfaf-135e-11ed-9243-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:17 GMT'
+    'Content-Length': '0'
+INFO:root:gif_file.gif
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fgif_file.gif?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '177f8a48-135e-11ed-ae36-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:18 GMT'
+    'ETag': '"0x8DA7581FCDECF56"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcf2d-801f-002f-6e6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '177f8a48-135e-11ed-ae36-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:17 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fgif_file.gif?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '17a2226d-135e-11ed-a4b0-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:18 GMT'
+    'ETag': '"0x8DA7581FD01E70F"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcf8e-801f-002f-4f6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '17a2226d-135e-11ed-a4b0-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:18 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fgif_file.gif?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '6811896'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '17c4c48c-135e-11ed-9eeb-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefcfc5-801f-002f-066a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '17c4c48c-135e-11ed-9eeb-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:20 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fgif_file.gif?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA7581FD01E70F"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1946d31f-135e-11ed-8023-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:21 GMT'
+    'ETag': '"0x8DA7581FEAB84AC"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd193-801f-002f-516a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1946d31f-135e-11ed-8023-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:20 GMT'
+    'Content-Length': '0'
+INFO:root:part-00000-5d5bb733-5baa-42a2-b216-71a9d6a59750-c000.avro
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fpart-00000-5d5bb733-5baa-42a2-b216-71a9d6a59750-c000.avro?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '196ffd5d-135e-11ed-9732-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:21 GMT'
+    'ETag': '"0x8DA7581FED03677"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd1c8-801f-002f-066a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '196ffd5d-135e-11ed-9732-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:21 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fpart-00000-5d5bb733-5baa-42a2-b216-71a9d6a59750-c000.avro?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1992d3b2-135e-11ed-974d-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:21 GMT'
+    'ETag': '"0x8DA7581FEF22806"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd20e-801f-002f-4c6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1992d3b2-135e-11ed-974d-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:21 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fpart-00000-5d5bb733-5baa-42a2-b216-71a9d6a59750-c000.avro?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '1804'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '19b3f08f-135e-11ed-b2f3-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd254-801f-002f-126a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '19b3f08f-135e-11ed-b2f3-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:21 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fpart-00000-5d5bb733-5baa-42a2-b216-71a9d6a59750-c000.avro?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA7581FEF22806"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '19d6d8a5-135e-11ed-89e3-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:21 GMT'
+    'ETag': '"0x8DA7581FF39748B"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd282-801f-002f-406a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '19d6d8a5-135e-11ed-89e3-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:21 GMT'
+    'Content-Length': '0'
+INFO:root:part-00000-63f46785-cbf9-4044-ba18-08f1cdbdc9c7-c000.snappy.parquet
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fpart-00000-63f46785-cbf9-4044-ba18-08f1cdbdc9c7-c000.snappy.parquet?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '19fe41c3-135e-11ed-b799-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:22 GMT'
+    'ETag': '"0x8DA7581FF5F997E"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd2d8-801f-002f-156a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '19fe41c3-135e-11ed-b799-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:22 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fpart-00000-63f46785-cbf9-4044-ba18-08f1cdbdc9c7-c000.snappy.parquet?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1a220507-135e-11ed-917a-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:22 GMT'
+    'ETag': '"0x8DA7581FF82532D"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd31e-801f-002f-5b6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1a220507-135e-11ed-917a-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:22 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fpart-00000-63f46785-cbf9-4044-ba18-08f1cdbdc9c7-c000.snappy.parquet?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '4344'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1a453122-135e-11ed-8583-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd365-801f-002f-226a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1a453122-135e-11ed-8583-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:22 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fpart-00000-63f46785-cbf9-4044-ba18-08f1cdbdc9c7-c000.snappy.parquet?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA7581FF82532D"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1a6716fb-135e-11ed-833b-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:22 GMT'
+    'ETag': '"0x8DA7581FFC9C46D"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd3ac-801f-002f-696a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1a6716fb-135e-11ed-833b-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:22 GMT'
+    'Content-Length': '0'
+INFO:root:sample.json
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.json?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1a8c7e16-135e-11ed-94c4-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:23 GMT'
+    'ETag': '"0x8DA7581FFEBE055"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd3fa-801f-002f-376a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1a8c7e16-135e-11ed-94c4-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:22 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.json?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1ab044dc-135e-11ed-86bc-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:23 GMT'
+    'ETag': '"0x8DA7582000F5337"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd44c-801f-002f-096a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1ab044dc-135e-11ed-86bc-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:23 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.json?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '780'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1ad1f7e0-135e-11ed-a298-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd4a0-801f-002f-5d6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1ad1f7e0-135e-11ed-a298-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:23 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.json?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA7582000F5337"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1af367a6-135e-11ed-a3a7-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:23 GMT'
+    'ETag': '"0x8DA758200543E11"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd4f8-801f-002f-356a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1af367a6-135e-11ed-a3a7-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:23 GMT'
+    'Content-Length': '0'
+INFO:root:sample.msg
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.msg?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1b1722c2-135e-11ed-989b-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:24 GMT'
+    'ETag': '"0x8DA7582007688C3"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd53d-801f-002f-7a6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1b1722c2-135e-11ed-989b-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:23 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.msg?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1b393da9-135e-11ed-9436-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:24 GMT'
+    'ETag': '"0x8DA75820098D0AE"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd58a-801f-002f-476a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1b393da9-135e-11ed-9436-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:24 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.msg?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '15116'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1b5b19e1-135e-11ed-92f6-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd5fe-801f-002f-3b6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1b5b19e1-135e-11ed-92f6-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:24 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.msg?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA75820098D0AE"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1b7fa2b3-135e-11ed-b7ee-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:24 GMT'
+    'ETag': '"0x8DA758200E27A63"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd663-801f-002f-1f6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1b7fa2b3-135e-11ed-b7ee-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:24 GMT'
+    'Content-Length': '0'
+INFO:root:sample.pdf
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.pdf?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1ba5fc89-135e-11ed-a14e-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:24 GMT'
+    'ETag': '"0x8DA75820105CCA3"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd6eb-801f-002f-276a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1ba5fc89-135e-11ed-a14e-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:24 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.pdf?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1bc8531e-135e-11ed-ac4c-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:25 GMT'
+    'ETag': '"0x8DA758201283F37"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd765-801f-002f-216a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1bc8531e-135e-11ed-ac4c-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:25 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.pdf?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '4132'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1beabbc4-135e-11ed-b327-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd7a5-801f-002f-616a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1beabbc4-135e-11ed-b327-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:25 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.pdf?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA758201283F37"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1c0d26f1-135e-11ed-99cb-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:25 GMT'
+    'ETag': '"0x8DA7582016FF432"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd7fb-801f-002f-376a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1c0d26f1-135e-11ed-99cb-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:25 GMT'
+    'Content-Length': '0'
+INFO:root:sample.xml
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.xml?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1c3338ed-135e-11ed-b339-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:25 GMT'
+    'ETag': '"0x8DA75820192FDA8"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd82e-801f-002f-696a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1c3338ed-135e-11ed-b339-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:25 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.xml?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1c5662a2-135e-11ed-acc3-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:26 GMT'
+    'ETag': '"0x8DA758201B61F50"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd857-801f-002f-106a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1c5662a2-135e-11ed-acc3-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:25 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.xml?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '6156'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1c78d324-135e-11ed-b321-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd891-801f-002f-4a6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1c78d324-135e-11ed-b321-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:26 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample.xml?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA758201B61F50"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1c99d928-135e-11ed-912f-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:26 GMT'
+    'ETag': '"0x8DA758201FC8FDB"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd8ca-801f-002f-036a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1c99d928-135e-11ed-912f-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:26 GMT'
+    'Content-Length': '0'
+INFO:root:sample_tif.tif
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample_tif.tif?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1cc17efa-135e-11ed-b5e3-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:26 GMT'
+    'ETag': '"0x8DA75820221AFAE"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd8f4-801f-002f-2d6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1cc17efa-135e-11ed-b5e3-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:26 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample_tif.tif?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1ce624e6-135e-11ed-bf60-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:27 GMT'
+    'ETag': '"0x8DA75820245566F"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd91c-801f-002f-556a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1ce624e6-135e-11ed-bf60-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:26 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample_tif.tif?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '55500'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1d07e4a0-135e-11ed-8870-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd942-801f-002f-7b6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1d07e4a0-135e-11ed-8870-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:27 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Fsample_tif.tif?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA75820245566F"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1d29b5ee-135e-11ed-8ecd-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:27 GMT'
+    'ETag': '"0x8DA7582028B2E08"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd971-801f-002f-2a6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1d29b5ee-135e-11ed-8ecd-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:27 GMT'
+    'Content-Length': '0'
+INFO:root:Sample_zip_file.zip
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2FSample_zip_file.zip?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1d67d4a5-135e-11ed-a152-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:27 GMT'
+    'ETag': '"0x8DA758202C70085"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefd9e3-801f-002f-1c6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1d67d4a5-135e-11ed-a152-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:27 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2FSample_zip_file.zip?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1d89579e-135e-11ed-ac42-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:28 GMT'
+    'ETag': '"0x8DA758202E959E3"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefda08-801f-002f-406a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1d89579e-135e-11ed-ac42-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:27 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2FSample_zip_file.zip?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '5507620'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '1dac33fd-135e-11ed-8e85-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefda43-801f-002f-7b6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '1dac33fd-135e-11ed-8e85-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:32 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2FSample_zip_file.zip?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA758202E959E3"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '20506ec5-135e-11ed-a17f-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:32 GMT'
+    'ETag': '"0x8DA758205B79D1C"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefde76-801f-002f-286a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '20506ec5-135e-11ed-a17f-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:32 GMT'
+    'Content-Length': '0'
+INFO:root:testing.csv
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Ftesting.csv?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '207b6668-135e-11ed-ac86-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:33 GMT'
+    'ETag': '"0x8DA758205DABCEB"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefdeb3-801f-002f-656a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '207b6668-135e-11ed-ac86-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:32 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Ftesting.csv?resource=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '209d2dd6-135e-11ed-92d4-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:33 GMT'
+    'ETag': '"0x8DA758205FCB4C3"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefdf0c-801f-002f-3e6a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '209d2dd6-135e-11ed-92d4-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:33 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Ftesting.csv?action=REDACTED&position=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'Content-Length': '780'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/json'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '20bef710-135e-11ed-b8fc-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 202
+Response headers:
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefdf6e-801f-002f-206a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '20bef710-135e-11ed-b8fc-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:33 GMT'
+    'Content-Length': '0'
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://nabudatabricksstorage.dfs.core.windows.net/my-file-system/Encrypted_files%2Ftesting.csv?action=REDACTED&position=REDACTED&close=REDACTED'
+Request method: 'PATCH'
+Request headers:
+    'If-Match': '"0x8DA758205FCB4C3"'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/json'
+    'User-Agent': 'azsdk-python-storage-dfs/12.8.0 Python/3.10.6 (Windows-10-10.0.19044-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '20e034b9-135e-11ed-9649-0068ebd7c7f0'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Last-Modified': 'Wed, 03 Aug 2022 18:57:33 GMT'
+    'ETag': '"0x8DA75820641A2A8"'
+    'Server': 'Windows-Azure-HDFS/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'x-ms-request-id': 'adefdfd3-801f-002f-056a-a7a53c000000'
+    'x-ms-version': 'REDACTED'
+    'x-ms-client-request-id': '20e034b9-135e-11ed-9649-0068ebd7c7f0'
+    'Date': 'Wed, 03 Aug 2022 18:57:33 GMT'
+    'Content-Length': '0'
